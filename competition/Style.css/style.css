@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --bg-prim:rgb(245, 235, 220);
+    --bg-sec:rgb(80, 35, 20);
+    --bg-or:rgb(214, 35, 0);
+}
+.bg-prim{
+    background-color:rgb(245, 235, 220) ;
+}
+.bg-sec{
+    background-color:rgb(80, 35, 20) ;
+}
+.bg-or{
+    background-color:rgb(214, 35, 0) ;
+}
+.col-prim{
+    color:rgb(245, 235, 220) ;
+}
+.col-sec{
+    color:rgb(80, 35, 20) ;
+}
+.col-or{
+    color:rgb(214, 35, 0) ;
+}
+.bg-or{
+    
+    background-color: rgb(214, 35, 0);
+}
+header{
+    background-color: var(--bg-prim);
+}
+.main-head{
+    font-size: 3.5rem;
+}
+#row{
+    display: flex;
+}
